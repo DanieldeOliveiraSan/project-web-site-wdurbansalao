@@ -1,0 +1,39 @@
+.container-fluid {
+  background-color: black;
+}
+.container {
+  background-color: black;
+  margin-top: 13px;
+}
+.barbg-body-tertiary {
+  background-color: black;
+}
+
+.nav-link-important {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-link-important:hover {
+  color: rgb(187, 188, 188);
+}
+.navbar-collapse {
+  margin-left: 200px;
+}
+.btn-outline-success {
+  background-color: rgb(239, 243, 243);
+  border-color: black;
+  color: black;
+}
+.btn-outline-success:hover {
+  background-color: rgb(70, 71, 71);
+  border-color: black;
+}
+
+/*FOOTER*/
+.col-md-6 {
+  width: 300px;
+  text-align: center;
+}
