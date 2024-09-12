@@ -4,12 +4,12 @@
 
 body{
   background-color: black;
-  height: auto;
+  height: 100rem;
 
 }
 @media  (max-width: 430px) {
   body{
-    height: 1500px;
+    height: 245rem;
   }
 
 
@@ -42,14 +42,29 @@ body{
 
 }
 @media (max-width: 430px) {
+  .whatsapp-button{
+  position: fixed;
+  bottom: 195px;
+  left: -55px;
 
   
-   
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  justify-content: right;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+
+
+
+  }
 
 .whatsapp-button img {
     width: 100px;
     height:100px;
 }
+
 
 
 
@@ -61,6 +76,10 @@ body{
 .container-fluid {
   background-color: black;
   
+}
+.navbar-toggler{
+  background-color: rgb(184, 179, 179);
+
 }
 .container {
   background-color: black;
@@ -370,7 +389,7 @@ footer{
   width:100%;
   height: 180px;
   background-color: black;
-  border-top: 0.5px white solid;  
+  border-top: 0.1px white solid;  
 }
 .container-footer{
   display: flex;
@@ -403,6 +422,7 @@ footer{
   justify-content: center;
   font-size: 13px;
   color: white;
+  margin-left: 50px;
 
 }
 .conteudo-footer3{
@@ -412,6 +432,7 @@ footer{
   justify-content: center;
   align-items: center;
   color: white;
+  margin-left: 50px;
 }
 .conteudo-footer4{
   width: 100%;
@@ -432,6 +453,41 @@ ul li a {
 
 
 }
+@media  (max-width: 768px) {
+  footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 500px;
+    height: 400px;
+  }
+  .container-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+  }
+  .conteudo-footer1{
+    width: 300px;
+    height: 150px;
+    align-items: center;
+  }
+  .conteudo-footer2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .conteudo-footer2 p{
+    display: flex;
+    margin-left: 35px;
+  
+
+  }
+ 
+  
+
+
+}
+
 
 
 
